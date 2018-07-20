@@ -1,4 +1,4 @@
-EXTRACTIP=$(host myip.opendns.com resolver1.opendns.com | grep " has address " | cut -d' ' -f4)
+EXTRACTIP=$(curl v4.ifconfig.co)
 
 if [ -z "$EXTRACTIP" ]
 then
