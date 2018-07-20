@@ -1,4 +1,4 @@
 # aws-scripts
 Scripts for managing AWS 
 
-1. This script updates specified security group to your current public IP address
+1. [update-ip-address-in-sg.sh] - This script updates specified security group to your current public IP address
